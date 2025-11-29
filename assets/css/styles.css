@@ -1,14 +1,27 @@
-/* Color Palette for Sunrise Bakery Website
+/*import all fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Leckerli+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-#FAF9F6 – Near-white
 
-#E6DED4 – Beige
+/*  Color Palette for Sunrise Bakery Website (CSS Variables) */
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Faculty Glyphic', serif;
+    --special-font: 'Leckerli One', cursive;
+    --near-white: #FAF9F6;
+    --beige: #E6DED4;
+    --soft-tan: #C8B39A;
+    --neutral-brown: #8F7A67;
+    --deep-accent-brown: #574C43;
 
-#C8B39A – Soft tan
+}
+/* Global styles */
 
-#8F7A67 – Neutral brown
 
-#574C43 – Deep accent brown
+
+
+
+
+
 
 */
 
@@ -16,16 +29,18 @@
 #navbar {
     background-color: #574C43 !important; /* Deep accent brown */
     border-bottom: 2px solid #C8B39A; /* Soft tan */
+    height: 4.85rem;
+    position: relative;
 }
 
 .font-size {
-    font-size: 1.1rem; /* Slightly larger font size for better readability */
+    font-size: 1.2rem; /* Slightly larger font size for better readability */
 }
 
 .navbar-brand {
     font-weight: bold;
     color: #F80 !important; /* Deep accent brown */
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 .nav-link {
@@ -34,9 +49,52 @@
 
 .active {
     font-weight: bold;
-    color: #FAF9F6 !important; /* Near-white */
+    color: #f8f6fa !important; /* Near-white */
 }
 
 .navbar-toggler {
     filter : invert(1); /* Invert colors for better visibility on dark background */
     }
+
+#navbarNav {
+    background-color: #574C43; /* Deep accent brown */
+    width: 100% !important;
+
+}
+
+
+
+
+
+
+
+
+
+/* Media queries for responsive navbar */
+
+/* Make the collapsed dropdown occupy full viewport width on small screens  */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 100%;
+        width: 100vw;
+        background-color: #574C43;
+        z-index: 999;
+        padding: 0.5rem 0;
+    }
+
+    .navbar-collapse .navbar-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-collapse .nav-link {
+        padding: 0.6rem 1rem;
+        width: 100%;
+        text-align: center;
+    }
+}
