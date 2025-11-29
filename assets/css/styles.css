@@ -1,0 +1,39 @@
+/* Color Palette for Sunrise Bakery Website
+
+#FAF9F6 – Near-white
+
+#E6DED4 – Beige
+
+#C8B39A – Soft tan
+
+#8F7A67 – Neutral brown
+
+#574C43 – Deep accent brown
+
+*/
+
+/* navbar styles */
+#navbar {
+    background-color: #574C43 !important; /* Deep accent brown */
+    border-bottom: 2px solid #C8B39A; /* Soft tan */
+}
+
+.font-size {
+    font-size: 1.1rem; /* Slightly larger font size for better readability */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #F80 !important; /* Deep accent brown */
+    font-size: 1.6rem;
+}
+
+.nav-link {
+    color: rgb(206, 205, 205);
+
+}
+
+.active {
+    font-weight: bold;
+    color: #FAF9F6 !important; /* Near-white */
+}
