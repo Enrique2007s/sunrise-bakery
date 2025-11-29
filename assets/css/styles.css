@@ -82,7 +82,7 @@
         transform: translateX(-50%);
         top: 100%;
         width: 100vw;
-        background-color: #574C43;
+        background-color: var(--deep-accent-brown); /* Deep accent brown */
         z-index: 999;
         padding: 0.5rem 0;
     }
