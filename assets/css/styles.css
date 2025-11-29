@@ -5,7 +5,7 @@
 /*  Color Palette for Sunrise Bakery Website (CSS Variables) */
 :root {
     --primary-font: 'Roboto', sans-serif;
-    --secondaru-font: 'Faculty Glyphic', serif;
+    --secondary-font: 'Faculty Glyphic', serif;
     --special-font: 'Leckerli One', cursive;
     --near-white: #FAF9F6;
     --beige: #E6DED4;
@@ -16,7 +16,22 @@
 }
 /* Global styles */
 
+body {
+    font-family: var(--primary-font);
+    background-color: var(--beige); /* Beige background for a warm feel */
+    color: var(--deep-accent-brown); /* Deep accent brown for text for good contrast */
+    margin: 0;
+    padding: 0;
+}
 
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-top: 1rem;
+}
 
 
 
@@ -40,7 +55,8 @@
 .navbar-brand {
     font-weight: bold;
     color: #F80 ; /* Deep accent brown */
-    font-size: 1.8rem;
+    font-size: 2.6rem;
+    font-family: var(--special-font);
 }
 
 /*makes sure the brand color stays the same on hover state */
