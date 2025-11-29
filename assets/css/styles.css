@@ -104,6 +104,7 @@ h1 {
     }
 }
 
+/* Further adjustments for very small screens */
 @media (max-width: 380px) {
     .navbar-brand {
         font-size: 1.9rem;
