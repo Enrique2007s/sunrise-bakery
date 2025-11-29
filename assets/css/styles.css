@@ -26,15 +26,15 @@
 
 /* navbar styles */
 #navbar {
-    background-color: #574C43; /* Deep accent brown */
-    border-bottom: 2px solid #C8B39A; /* Soft tan */
+    background-color: var(--deep-accent-brown); /* Deep accent brown */
+    border-bottom: 2px solid var(--soft-tan); /* Soft tan */
     height: 4.85rem;
     position: relative;
 }
 
 .font-size {
     font-size: 1.2rem; /* Slightly larger font size for better readability */
-    background-color: #574C43; /* Deep accent brown */
+    background-color: var(--deep-accent-brown); /* Deep accent brown */
 }
 
 .navbar-brand {
@@ -43,6 +43,7 @@
     font-size: 1.8rem;
 }
 
+/*makes sure the brand color stays the same on hover state */
 .navbar-brand:hover,
 .navbar-brand:focus {
     color: #F80 !important;
@@ -55,7 +56,7 @@
 
 .active {
     font-weight: bold;
-    color: #f8f6fa !important; /* Near-white */
+    color: var(--near-white) !important; /* Near-white */
 }
 
 .navbar-toggler {
