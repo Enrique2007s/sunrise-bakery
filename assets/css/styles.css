@@ -29,11 +29,14 @@
 }
 
 .nav-link {
-    color: rgb(206, 205, 205);
-
+    color: rgb(206, 205, 205); /* Light gray for better contrast */
 }
 
 .active {
     font-weight: bold;
     color: #FAF9F6 !important; /* Near-white */
 }
+
+.navbar-toggler {
+    filter : invert(1); /* Invert colors for better visibility on dark background */
+    }
