@@ -102,6 +102,12 @@ h1 {
         z-index: 999;
         padding: 0.5rem 0;
     }
+}
+
+@media (max-width: 380px) {
+    .navbar-brand {
+        font-size: 1.9rem;
+}
 
     .navbar-collapse .navbar-nav {
         width: 100%;
