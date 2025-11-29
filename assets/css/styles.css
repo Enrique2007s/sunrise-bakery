@@ -5,7 +5,7 @@
 /*  Color Palette for Sunrise Bakery Website (CSS Variables) */
 :root {
     --primary-font: 'Roboto', sans-serif;
-    --secondary-font: 'Faculty Glyphic', serif;
+    --secondaru-font: 'Faculty Glyphic', serif;
     --special-font: 'Leckerli One', cursive;
     --near-white: #FAF9F6;
     --beige: #E6DED4;
@@ -23,11 +23,10 @@
 
 
 
-*/
 
 /* navbar styles */
 #navbar {
-    background-color: #574C43 !important; /* Deep accent brown */
+    background-color: #574C43; /* Deep accent brown */
     border-bottom: 2px solid #C8B39A; /* Soft tan */
     height: 4.85rem;
     position: relative;
@@ -35,12 +34,19 @@
 
 .font-size {
     font-size: 1.2rem; /* Slightly larger font size for better readability */
+    background-color: #574C43; /* Deep accent brown */
 }
 
 .navbar-brand {
     font-weight: bold;
-    color: #F80 !important; /* Deep accent brown */
+    color: #F80 ; /* Deep accent brown */
     font-size: 1.8rem;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+    color: #F80 !important;
+    text-decoration: none;
 }
 
 .nav-link {
@@ -56,11 +62,6 @@
     filter : invert(1); /* Invert colors for better visibility on dark background */
     }
 
-#navbarNav {
-    background-color: #574C43; /* Deep accent brown */
-    width: 100% !important;
-
-}
 
 
 
