@@ -11,7 +11,7 @@
     --beige: #E6DED4;
     --soft-tan: #C8B39A;
     --neutral-brown: #8F7A67;
-    --deep-accent-brown: #574C43;
+    --deep-accent-brown: #4e4035;
 
 }
 /* Global styles */
@@ -79,7 +79,7 @@ h1 {
     filter : invert(1); /* Invert colors for better visibility on dark background */
     }
 
-
+/* Sunrise Bakery outside POV on index.html */
 
 
 
