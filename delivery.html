@@ -50,10 +50,67 @@
     </nav>
 
     <!-- Main Content -->
+    <main class="flex-grow-1">
+        <div class="container my-5">
+            <h1 class="mb-4">Delivery Information</h1>
+            <p>At Sunrise Bakery, we are delighted to offer delivery services to bring our freshly baked goods right to your doorstep. Whether you're craving our artisan breads, delectable pastries, or custom cakes, we've got you covered!</p>
+            <h2 class="mt-4">Delivery Areas</h2>
+            <p>We currently deliver within a 25-mile radius of our bakery location. If you're unsure whether we deliver to your area, please contact us for more information.</p>
+            <section id="delivery-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2>Delivery Form</h2>
+
+                    <form action="https://formdump.codeinstitute.net" method="GET">
+                        <fieldset>
+                            <legend>Delivery Form</legend>
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone-number" type="number" required>
+                            </div>
+
+                            <div class="col-12 col-lg-6 mb-3">
+                                <fieldset aria-label="Product labels">
+                                    <legend>What would you like?</legend>
+                                    <label>
+                                        <input type="checkbox" name="main-item" value="bread"> Bread</label>
+                                    <label>
+                                        <input type="checkbox" name="main-item" value="pastry"> Pastry</label>
+                                    <label>
+                                        <input type="checkbox" name="main-item" value="dessert"> Dessert</label>
+                                    <label>
+                                        <input type="checkbox" name="main-item" value="drink"> Drink</label>
+                                    </fieldset>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Specify what you want and your location.</label>
+                                <textarea class="form-control" rows="6" id="message" name="message"
+                                    required></textarea>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn custom-button- mb-4">Submit</button>
+                        </fieldset>                    
+                    </form>
+                </div>
+            </div>
+        </section>
 
 
 
-        <!--Footer-->
+    <!--Footer-->
     <footer id="contact" class="mt-auto">
         <div class="section">
             <div class="row justify-content-center">
@@ -146,5 +203,5 @@
             });
         });
     </script>
-    </body>
+</body>
 </html>

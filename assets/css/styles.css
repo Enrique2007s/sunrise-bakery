@@ -105,6 +105,19 @@ h1 {
   align-items: center;
 }
 
+.custom-button- {
+    background-color: #b67c52;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.custom-button-:hover {
+    background-color: #9d6b47;
+}
+
 
 /*our products section*/
 .top-border {
@@ -142,6 +155,22 @@ footer {
     font-size: 1rem;
 }
 
+/* Make footer always span the full viewport width while keeping content centered */
+footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Footer content wrapper: constrain content but keep background full-width */
+footer .section {
+    max-width: 1200px; /* adjust to taste */
+    margin: 0 auto;
+    padding: 1.25rem 1rem;
+}
+
 .icon-size {
     font-size: 1.9rem;
     color: var(--beige); /* Near-white */
@@ -164,6 +193,33 @@ footer {
     margin-bottom: 3rem;
 }
 
+/* Form styles */
+form {
+    background-color: #f8f4ef; /* light bakery-style tone */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e0d6c8;
+}
+
+fieldset {
+    padding: 15px;
+    border: 1px solid #d6c7b0;
+    border-radius: 6px;
+}
+
+legend {
+    font-weight: 600;
+    padding: 0 8px;
+}
+
+input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+fieldset label {
+    display: block;
+    margin-bottom: 5px;
+}
 
 
 /* Media queries for responsive navbar */
