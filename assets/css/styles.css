@@ -79,8 +79,47 @@ h1 {
     filter : invert(1); /* Invert colors for better visibility on dark background */
     }
 
-/* Sunrise Bakery outside POV on index.html */
+/* Buttons */
+.button {
+    background-color: var(--neutral-brown); /* Neutral brown */
+    color: var(--near-white); /* Near-white */
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
 
+.button:hover,
+.button:focus {
+    background-color: var(--soft-tan); /* Soft tan */
+    color: var(--deep-accent-brown); /* Deep accent brown */
+    outline: none;
+    box-shadow: 0 0 0 3px var(--soft-tan);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*our products section*/
+.top-border {
+    padding-top: 1rem;
+    margin-top: 7rem;
+}
+
+
+/*footer section*/
+footer {
+    background-color: var(--deep-accent-brown); /* Deep accent brown */
+    color: var(--near-white); /* Near-white */
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: auto;
+    font-size: 1rem;
+}
 
 
 
