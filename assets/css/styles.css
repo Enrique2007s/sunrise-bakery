@@ -39,6 +39,8 @@ h1 {
 
 
 
+
+
 /* navbar styles */
 #navbar {
     background-color: var(--deep-accent-brown); /* Deep accent brown */
@@ -107,8 +109,21 @@ h1 {
 /*our products section*/
 .top-border {
     padding-top: 1rem;
-    margin-top: 7rem;
+    margin-top: 6rem;
 }
+
+/*table section*/
+th, td {
+    border: var(--deep-accent-brown) 2px solid;
+}
+
+.table-background {
+    background-color: var(--neutral-brown); /* Deep accent brown */
+    color: black; /* Black text for contrast */
+}
+
+
+
 
 
 /*footer section*/

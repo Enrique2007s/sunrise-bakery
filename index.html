@@ -36,10 +36,13 @@
                         <a class="nav-link" href="#products">Products</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#events">Events</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#delivery">Delivery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#footer">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -107,7 +110,7 @@
             <div class="row">
                 <div class="text-center">
                 <h2 class="top-border">Upcoming Events</h2>
-                        <p class="lead">Join us for our special bakery events!</p>
+                        <p class="lead">Come and have an unforgettable experience!</p>
                     </div>
                 <div id="events" class="col-md-12 col-lg-6 text-center mb-4">
                     <br>
@@ -136,39 +139,43 @@
                 </div>
 
                 <!--events table-->
-                <div id="events-table" class="col-md-12 col-lg-6 mx-auto mt-4">
-                    <table class="table text-center text-xl-start">
+                <div id="events-table table-bordered" class="col-md-12 col-lg-6 mx-auto mt-4">
+                    <div class="text-center">
+                    <p class="lead"><strong>Join us for our special bakery events for teens!</strong></p>
+                    <p><strong>Ages 13-19</strong></p>
+                    </div>
+                    <table class="table-background text-center text-xl-start">
                         <thead>
                             <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
+                                <th scope="col"></th>
+                                <th scope="col">Sugar Mania</th>
+                                <th scope="col">Pastry Mansion</th>
+                                <th scope="col">Bread-Mania</th>
                              </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
+                                <th scope="row">Description</th>
+                                <td>Bake the ultimate dessert and prove your skills!</td>
+                                <td>Create your own unique and delicious pastries!</td>
+                                <td>Bake the perfect and healthiest loaf of bread!</td>
                             </tr>
                             <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
+                                <th scope="row">Day</th>
+                                <td>Last Friday of the month</td>
+                                <td>Last Saturday of the month</td>
+                                <td>Last Sunday of the month</td>
                             </tr>
                             <tr>
-                                <th scope="row">3</th>
-                                <td>John</td>
-                                <td>Doe</td>
-                                <td>@social</td>
+                                <th scope="row">Time</th>
+                                <td>6:00 PM - 8:00 PM</td>
+                                <td>4:00 PM - 6:00 PM</td>
+                                <td>2:00 PM - 4:00 PM</td>
                             </tr>
                         </tbody>
                     </table>
-
-
+                    <br>
+                    
                 </div>
 
             </div>
@@ -176,9 +183,8 @@
     </main>
 
     <!--Footer-->
-    <footer id="footer" class="text-center text-lg-start mt-auto">
+    <footer id="footer" class="text-lg-start mt-auto">
         <div class="container p-4">
-            <div class="row">
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                     <h5 class="text-uppercase">Sunrise Bakery</h5>
                     <p>
@@ -187,11 +193,36 @@
                         Email: info@sunrisebakery.com
                     </p>
                 </div>
-            </div>
         </div>
     </footer>
 
     <!--Bootstrap 5 JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+
+    <!--fontawesome script-->
+    <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
+
+    
+        <!--navbar collapse script-->
+    <script>
+    document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+            link.addEventListener("click", function (e) {
+                let section = document.querySelector(e.target.getAttribute("href"));
+                if (section) {
+                    e.preventDefault(); // Prevent default anchor click behavior
+                    let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                    window.scroll({
+                        top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                        behavior: "smooth",
+                    });
+                    document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show"); // Collapse navbar
+                }
+            });
+        });
+</script>
+    </body>
 </html>
