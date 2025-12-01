@@ -77,10 +77,6 @@ h1 {
     color: var(--near-white) !important; /* Near-white */
 }
 
-.navbar-toggler {
-    filter : invert(1); /* Invert colors for better visibility on dark background */
-    }
-
 /* Buttons */
 .button {
     background-color: var(--neutral-brown); /* Neutral brown */
