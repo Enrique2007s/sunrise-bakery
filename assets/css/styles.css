@@ -115,8 +115,7 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-.button-price:hover,
-.button-price:focus {
+.button-price:hover {
     background-color: var(--soft-tan); /* Soft tan */
     color: var(--deep-accent-brown); /* Deep accent brown */
     outline: none;
@@ -245,7 +244,7 @@ fieldset label {
 
 /*bigger space around the cards*/
 .section .card {
-    margin: 1rem;
+    margin: 0.65rem;
 }
 
 /*set all images to the same size*/
