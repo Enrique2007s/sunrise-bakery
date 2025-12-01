@@ -14,14 +14,15 @@
     --deep-accent-brown: #4e4035;
 
 }
-/* Global styles */
 
+/* Global styles */
 body {
     font-family: var(--primary-font);
     background-color: var(--beige); /* Beige background for a warm feel */
     color: var(--deep-accent-brown); /* Deep accent brown for text for good contrast */
     margin: 0;
     padding: 0;
+    padding-top: 4.85rem; /* to prevent content being hidden behind fixed navbar */
 }
 
 h1, h2, h3 {
@@ -34,19 +35,17 @@ h1 {
 }
 
 
-
-
-
-
-
-
-
 /* navbar styles */
 #navbar {
     background-color: var(--deep-accent-brown); /* Deep accent brown */
     border-bottom: 2px solid var(--soft-tan); /* Soft tan */
     height: 4.85rem;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1030;
+    /*pull main content down so it is not hidden behind navbar*/
+   
 }
 
 .font-size {
@@ -76,6 +75,7 @@ h1 {
     font-weight: bold;
     color: var(--near-white) !important; /* Near-white */
 }
+
 
 /* Buttons */
 .button {
@@ -146,6 +146,7 @@ h1 {
     margin-top: 6rem;
 }
 
+
 /*table section*/
 th, td {
     border: var(--deep-accent-brown) 2px solid;
@@ -162,6 +163,7 @@ table {
 .table-color {
     background-color: var(--soft-tan); /* Soft tan for table headers */
 }
+
 
 /*footer section*/
 footer {
@@ -211,6 +213,7 @@ footer .section {
     margin-bottom: 3rem;
 }
 
+
 /* Form styles */
 form {
     background-color: #f8f4ef; /* light bakery-style tone */
@@ -239,6 +242,7 @@ fieldset label {
     margin-bottom: 5px;
 }
 
+
 /*Prices section*/
 
 /*bigger space around the cards*/
@@ -264,6 +268,7 @@ fieldset label {
     width: 263px; /* Set a fixed width */
     height: 200px; /* Set a fixed height */
 }
+
 
 /* Media queries for responsive navbar */
 
