@@ -122,8 +122,11 @@ h1 {
     box-shadow: 0 0 0 3px var(--soft-tan);
 }
 
-
-
+/* center the button horizontally and keep it at the bottom */
+.section .card .btn {
+  margin-top: auto;   /* pushes button to bottom */
+  align-self: center; /* centers horizontally inside the card */
+}
 
 
 /*form buttons*/
@@ -245,6 +248,19 @@ fieldset label {
 /*bigger space around the cards*/
 .section .card {
     margin: 0.65rem;
+}
+
+/* make card a vertical flex container so children can be spaced */
+.section .card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* allow the body to grow so the button can be pushed down */
+.section .card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
 }
 
 /*set all images to the same size*/
