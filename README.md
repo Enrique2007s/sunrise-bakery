@@ -112,11 +112,22 @@ artlist.io: Artlist is an image generator used to create the Hero image, or the 
 
 online image generator: Used to compress images and make them smaller to succeed in the Lighthouse testing.
 
-[iStock]([istock](https://www.istockphoto.com/)) (by Getty Images: Used to find all the pictures in the prices.html page.
+iStock (by Getty Images: Used to find all the pictures in the prices.html page.
 
-All the icons across the page were taken from [Font Awesome](fontawesome.com).
+All the icons across the page were taken from Font Awesome.
 
+This favicon was generated using the following font:
 
+- Font Title: Leckerli One
+- Font Author: undefined
+- Font Source: https://fonts.gstatic.com/s/leckerlione/v21/V8mCoQH8VCsNttEnxnGQ-1itLZxcBtItFw.ttf
+- Font License: undefined)
+
+Google Fonts: Used for styling fonts across the webpage.
+
+Bootstrap: Used for the carousel, the cards, and nav system.
+
+notengoenie: Used for special characters.
 
 
 
