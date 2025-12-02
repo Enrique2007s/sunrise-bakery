@@ -111,7 +111,7 @@ If link does not work, please try this one: https://enrique2007s.github.io/sunri
 
 EMMET: EMMET was an invaluable tool in the code editor. EMMET helped with code suggestions and helped resolve logic errors and simple typos. EMMET takes credit for styling the buttons in the prices.html page and finding mistakes before I could find them.
 
-ChatGPT: ChatGPT was used as a code organizer. The only use of ChatGPT was organizing code for better readability and mantainability. It also generated the three pictures used in the carousel in the events section.
+ChatGPT: ChatGPT was used as a code organizer, image generator, and helper for user stories. The only uses of ChatGPT were organizing code for better readability and mantainability. It generated the three pictures used in the carousel in the events section. It helped me organize the user stories in the projects part of PP1.
 
 artlist.io: Artlist is an image generator used to create the Hero image, or the outside of Sunrise Bakery in the index.html page (the first image).
 
@@ -135,6 +135,7 @@ Bootstrap: Used for the carousel, the cards, and nav system.
 notengoenie: Used for special characters.
 
 https://www.youtube.com/watch?v=g9b4LjYrsUQ&pp=ygUUaG93IHRvIHVzZSBib290c3RyYXA%3D Learning how to use Bootstrap.
+
 
 
 
