@@ -37,6 +37,14 @@ This section will make the viewers aware of the events hosted each month, as wel
 
 <img width="1262" height="517" alt="image" src="https://github.com/user-attachments/assets/c92a3bfa-4d73-4239-ad10-f2e9881285c5" />
 
+<strong>Footer</strong>
+
+This section cntains all the social media pages, as well as the location, and opening hours of Sunrise Bakery. Furthermore, under the table it is specified that they will be open in all events.
+
+This will allow visitors to connect with Sunrise Bakery through social media. It will also tell the visitors when to come and knowledge on the events.
+
+<img width="1261" height="372" alt="image" src="https://github.com/user-attachments/assets/f20bafcf-d4c3-4752-b493-ae7d97ee8943" />
+
 <strong>Prices Section</strong>
 
 This section shows the viewers various cards, each with a different product offered by Sunrise Bakery. It inlcudes the image of the product, the ingredients, the price, and a button to a form for delivery services.
@@ -52,5 +60,10 @@ This section shows a form viewers will have to complete to have baked goods deli
 This will allow the users to use Sunrise Bakery's delivery services to get food directly to their home without having to go to the location.
 
 <img width="1252" height="796" alt="image" src="https://github.com/user-attachments/assets/e98311c3-4cb1-4cca-ab8d-28b732341fc7" />
+
+
+
+
+
 
 
