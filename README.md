@@ -100,10 +100,21 @@ These are the following steps I used to deploy my project (On Github Pages)
 
 Link to live page: https://enrique2007s.github.io/sunrise-bakery/
 
+If link does not work, please try this one: https://enrique2007s.github.io/sunrise-bakery/index.html
 
+## Credits
 
+EMMET: EMMET was an invaluable tool in the code editor. EMMET helped with code suggestions and helped resolve logic errors and simple typos. EMMET takes credit for styling the buttons in the prices.html page.
 
+ChatGPT: ChatGPT was used as a code organizer. The only use of ChatGPT was organizing code for better readability and mantainability. It also generated the three pictures in the carousel in the events section.
 
+artlist.io: Artlist is an image generator used to create the Hero image, or the outside of Sunrise Bakery in the index.html page.
+
+online image generator: Used to compress images and make them smaller to succeed in the Lighthouse testing.
+
+iStock (by Getty Images: Used to find all the pictures in the prices.html page.
+
+All the icons across the page were taken from [Font Awesome](url).
 
 
 
