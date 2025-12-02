@@ -288,23 +288,21 @@
     <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
 
     
-    <!--navbar collapse script-->
+    <!-- Navbar Collapse Script -->
     <script>
-    document
-        .querySelectorAll(".navbar-collapse .nav-link")
-        .forEach((link) => {
+        document.querySelectorAll(".navbar-collapse .nav-link").forEach((link) => {
             link.addEventListener("click", function (e) {
                 let section = document.querySelector(e.target.getAttribute("href"));
                 if (section) {
-                    e.preventDefault(); // Prevent default anchor click behavior
+                    e.preventDefault();
                     let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+
                     window.scroll({
-                        top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                        top: section.offsetTop - navbarHeight,
                         behavior: "smooth",
                     });
-                    document
-                        .querySelector(".navbar-collapse")
-                        .classList.remove("show"); // Collapse navbar
+
+                    document.querySelector(".navbar-collapse").classList.remove("show");
                 }
             });
         });
