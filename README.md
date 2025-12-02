@@ -88,10 +88,17 @@ As previously mentioned, a bug shows on line 296 relating to a stray start tag. 
 An annoying bug I could not fix was in the navbar. No matter what was done. Whenever a viewer clicks on products, event, or contact, the button would stay black until the user clicked on the page, then it would return to its original colour. I suspect it is a class from Bootstrap, but I have no found the class yet.
 
 
+## Deployment
+These are the following steps I used to deploy my project (On Github Pages)
 
+1-) Open the repository you wish to deploy.
+2-) Go to settings on the item bar on the far right.
+3-) Onthe left dropdown list, go to "Pages"
+4-) Make sure the source is "Deploy from a branch".
+5-) Make sure the branch comes from "Main" and folder from "root".
+6-) Save it and it has been deployed!
 
-
-
+Link to live page: https://enrique2007s.github.io/sunrise-bakery/
 
 
 
