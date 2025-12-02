@@ -112,9 +112,10 @@ artlist.io: Artlist is an image generator used to create the Hero image, or the 
 
 online image generator: Used to compress images and make them smaller to succeed in the Lighthouse testing.
 
-iStock (by Getty Images: Used to find all the pictures in the prices.html page.
+[iStock]([istock](https://www.istockphoto.com/)) (by Getty Images: Used to find all the pictures in the prices.html page.
 
-All the icons across the page were taken from [Font Awesome](url).
+All the icons across the page were taken from [Font Awesome](fontawesome.com).
+
 
 
 
