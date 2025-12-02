@@ -61,6 +61,44 @@ This will allow the users to use Sunrise Bakery's delivery services to get food 
 
 <img width="1252" height="796" alt="image" src="https://github.com/user-attachments/assets/e98311c3-4cb1-4cca-ab8d-28b732341fc7" />
 
+## Testing
+
+<strong>Validator Testing</strong>
+
+HTML: 
+One error was found when passing through the official W3C validator
+Error: It is related to JS. It will be detailed in the bugs section
+
+CSS
+No errors were found when passing through the official (Jigsaw) validator
+
+<strong>Human Testing</strong>
+Throughout the building process, viewers entered the website and noted the bugs, errors, and improvements to the website. This allowed for a more accurate building process to what was planned.
+
+Furthermore, users used different screen sizes to view the content of the webpage and express their opinions.
+
+An interestig bug I found was in the cards section in the prices.html page. Whenever I edited the cards on that page, the cards on the index.html page would change as well. I had to separate classes and create a new one for the cards in the prices page.
+
+An annoying bug I found is still in the Navbar. Whenever an item is clicked, it will stay black until another click is made, then return to its origninal colour. Why does it do this? I have no idea. I have tried changing many things and it still continued changing black.
+
+<strong> Unfixed Bugs </strong>
+
+As previously mentioned, a bug shows on line 296 relating to a stray start tag. This has never shown until now.
+
+An annoying bug I could not fix was in the navbar. No matter what was done. Whenever a viewer clicks on products, event, or contact, the button would stay black until the user clicked on the page, then it would return to its original colour. I suspect it is a class from Bootstrap, but I have no found the class yet.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
