@@ -73,6 +73,7 @@ CSS
 No errors were found when passing through the official (Jigsaw) validator
 
 <strong>Human Testing</strong>
+
 Throughout the building process, viewers entered the website and noted the bugs, errors, and improvements to the website. This allowed for a more accurate building process to what was planned.
 
 Furthermore, users used different screen sizes to view the content of the webpage and express their opinions.
@@ -128,6 +129,7 @@ Google Fonts: Used for styling fonts across the webpage.
 Bootstrap: Used for the carousel, the cards, and nav system.
 
 notengoenie: Used for special characters.
+
 
 
 
