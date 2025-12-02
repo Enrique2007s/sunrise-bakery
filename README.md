@@ -15,7 +15,7 @@ This section will allow users to navigate through the webiste with ease at all t
 
 <strong>Home Page</strong>
 
-The home page includes an image of the outside of the locale 'Sunrise Bakery'. It also contains the about us information and a button, insiting viewers to go to the prices.html page.
+The home page includes an image of the outside of the locale 'Sunrise Bakery'. It also contains the about us information and a button, inciting viewers to go to the prices.html page.
 
 This section will allow users to know more about Sunrise Bakery while giving them an idea of what the place looks like.
 
@@ -129,6 +129,7 @@ Google Fonts: Used for styling fonts across the webpage.
 Bootstrap: Used for the carousel, the cards, and nav system.
 
 notengoenie: Used for special characters.
+
 
 
 
